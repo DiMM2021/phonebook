@@ -1,0 +1,117 @@
+body {
+    background-color: #F2F6FA;
+}
+
+.form-container {
+    width: 300px;
+    height: 250px;
+    background-color: #374050;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-form {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 15px;
+    color: honeydew;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 20px;
+    width: 100%; 
+}
+
+.form-input {
+    width: 100%; 
+    height: 40px;
+    padding: 8px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+.form-button {
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.contact-list-container {
+    width: 75%;
+    height: 100%;
+    background-color: #fff;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-contact-list {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #374050;
+}
+
+.table-contact-list {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+.th-name, .th-phone {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f1f1f1; 
+}
+
+.th-actions {
+    text-align: center;
+    width: 150px;
+    padding: 10px 0;
+    background-color: #f1f1f1; 
+}
+
+.td-name, .td-phone, .td-delete-button {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fafafa; 
+    border-bottom: 1px solid #ddd; 
+}
+
+.td-delete-button a{
+    display: inline-block;
+    color: #a70e0e;
+    text-decoration: none;
+    border: 1px dashed #a70e0e; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+}
+
+tr:last-child td {
+    border-bottom: none; 
+}
